@@ -55,6 +55,8 @@ The following diagram illustrates the end-to-end workflow and automation process
 
 ![Project Workflow](images/projectworkflow.png)
 
+https://github.com/user-attachments/assets/57267c2a-21f2-4788-8992-d34a04033f0b
+
  ### **Data Extraction:**
 
 The IATA codes for EU airports were extracted from the [OpenAIP](https://www.openaip.net/). These codes were then read into FME using the GeoJSON Writer. Based on these IATA codes, the API request URLs were dynamically generated within FME. These URLs serve as inputs for the HTTP Caller transformer in FME, which retrieves real-time flight schedule data from the [Aviation Edge API](https://aviation-edge.com/).
